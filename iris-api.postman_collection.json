@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "45c96711-f4d3-4ffb-b374-b98be4576160",
+		"name": "iris-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/testing",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Sepal Length\": [\r\n        5.1,\r\n        5.6,\r\n        1.6\r\n    ],\r\n    \"Sepal Width\": [\r\n        3.5,\r\n        3.2,\r\n        0.2\r\n    ],\r\n    \"Petal Length\": [\r\n        1.4,\r\n        4.5,\r\n        4.7\r\n    ],\r\n    \"Petal Width\": [\r\n        0.2,\r\n        3.2,\r\n        1.5\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/testing",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"testing"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
